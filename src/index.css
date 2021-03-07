@@ -1,0 +1,76 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: rgb(148, 147, 147);
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    margin-left: 0px;
+}
+
+h1,h2{
+    font-weight: 300;
+}
+
+#menu{
+    display: flex;
+    background-color: rgb(22, 3, 22);
+    margin: 0;
+}
+
+p.test{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+li{
+    color: white;
+    display: block;
+    padding: 25px;
+}
+li:first-child{
+    margin-right: auto;
+}
+
+td{
+    width: 40%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    width: 480px;
+    height: 270px;
+    padding: 10px;
+}
+
+h2{
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+.projetosExpand{
+    height: auto;
+    padding: 15px;
+    display: none;
+    overflow: hidden;
+    background-color: #504a4a;
+    max-height: 200px;
+    transition: max-height 0.3s ease-out;
+}
+
+.projetos{
+    color: black;
+    height: auto;
+    padding: 15px;
+    display:block;
+    overflow: hidden;
+    background-color: #36353542;
+    max-height: 300px;
+    transition: max-height 0.3s ease-out;
+    width:1290px;
+    text-align: left;
+    margin-left: 50px;
+}
