@@ -1,4 +1,5 @@
 import React from 'react'
+
 /*  OUTRA MANEIRA DE EXPORTAR A FUNÇÃO
 function Primeiro(){
     return (
@@ -13,12 +14,30 @@ export default Primeiro*/
 
 export default props =>
 
-    <div className={'projetos'}>
+    
+    <div className={"projetos"} id="projetos">   
         <table>
             <tr>
-                <td>{props.imagem}</td>
-                <td><h2> {props.descricao} </h2></td>
+                <td> <img className={"projetosImg"} src={props.imagem}/> </td>
+                <td>
+                    <div  className={"projetosExpand"}>
+                        <h2>{props.descricao}</h2>
+                    </div> 
+                </td>
             </tr>
         </table>
-        
     </div>
+    
+    /*
+     <span type="button"  className={"projetosTitulo"}> Death Valley</span>
+    <div className={'fundoProjetos'}>
+        <img className={"projetosImg"} src={props.imagem}/>
+        <span type="button" class="projetosTitulo" > <h1>Death Valley</h1></span>
+        <div className={"projetosExpand"}>
+            <h2> {props.descricao} </h2>
+        </div>
+    </div>*/
+    
+
+
+
