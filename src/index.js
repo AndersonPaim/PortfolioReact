@@ -14,6 +14,9 @@ ReactDOM.render(
   <div className="projetosBg">
     <Capa fotoPerfil={fotoPerfil} nome={"ANDERSON PAIM"}></Capa>
     <Topico titulo={"Projetos"}></Topico>
+    <div style={{ whiteSpace: 'pre-wrap' }} className="projetosBg">
+    <Projetos img1={img1} im2={img2} img3={img3} titulo={"Death Valley"} descricao={"Introdução: Jogo de ondas de inimigos para derrotar enquanto defende uma torre dos ataque, o player possui diversas habilidades especiais para encarar esse desafio, sobreviva o quanto puder  \u000A Plataforma: PC  \u000A Engine: Unity  \u000A Linguagem de programação: C#  \u000A "}></Projetos>
+    </div>
     <Topico titulo={"Sobre"}></Topico>
     <Topico titulo={"Contato"}></Topico>
   </div>,
