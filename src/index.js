@@ -20,7 +20,7 @@ import Projetos from './components/Projetos.jsx'
 import Capa from './components/Capa.jsx'
 import Topico from './components/Topico.jsx'
 import Sobre from './components/Sobre.jsx'
-
+import Contato from './components/Contato.jsx'
 
 ReactDOM.render(
 
@@ -36,6 +36,8 @@ ReactDOM.render(
     <Topico id={"Sobre"} titulo={"Sobre"}></Topico>
     <Sobre sobre={"Meu nome é Anderson Paim, tenho 20 anos, moro em  Gravataí-RS, sou estudante de Jogos Digitais na  Universidade do Vale do Rio dos Sinos(UNISINOS), estou na área de desenvolvimento de jogos e programação desde 2018, meu maior foco como desenvolvedor são de desenvolvimento de jogos na Unity e programação web front end."}/>
     <Topico titulo={"Contato"}></Topico>
+    <Contato id={"Contato"}></Contato>
+    <Topico titulo={""}></Topico>
   </div>,
   
     document.getElementById('root')

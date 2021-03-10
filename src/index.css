@@ -230,8 +230,6 @@ h2 {
     margin-top: 590px;
   }
   
-
-
   /*MELHORAR ACIMA*/
 
 
@@ -259,4 +257,67 @@ h2 {
   margin-right: 300px;
   margin-top: 60px;
   margin-bottom: 60px;
+}
+
+/*email form*/
+
+.emailForm {
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+label{
+  width: 40%;
+  margin-left: 30%;
+}
+
+input[type=text]{
+  width: 40%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: none;
+  border-radius: 20px;
+  margin-left: 30%;
+  background-color: rgba(5, 5, 5, 0.233);
+  box-sizing: border-box;
+}
+
+input[type=text]:focus{
+  background-color: rgba(5, 5, 5, 0.233);
+  outline: none;
+}
+
+.sendBtn {
+  background: linear-gradient(90deg, #630370a2, #2e31f3);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  margin-left: 30%;
+  opacity: 0.9;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.sendBtn:hover {
+  opacity: 1;
+}
+
+.msg{
+  border-radius: 20px;
+  background-color: rgba(5, 5, 5, 0.233);
+  display: block;
+  width: 40%;
+  height: 200px;
+  margin-left: 30%;
+  border: none;
+  max-width: 40%;
+  min-width: 40%;
+  max-height: 300px;
+  min-height: 150px;
+  margin-top: 8px;
+  box-sizing: border-box;
 }
