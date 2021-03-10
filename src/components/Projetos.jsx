@@ -7,11 +7,11 @@ function Projetos(props){
     <div>
         <table>
             <tr>
-                <td> <img src={props.img1}/></td>
+                <td> <img className={props.imgStyle} src={props.img1}/></td>
                 <td>
-                    <button onClick={()=>setShow(!show)} class="projetos"> <h1> {props.titulo} </h1></button>      
-                    <div style={{display: show && "none"}} class="projetosExpand">
-                    <h2> {props.descricao} <img src={props.img2}/> <img src={props.img3}/></h2>
+                    <button onClick={()=>setShow(!show)} className="projetos"> <h1> {props.titulo} </h1></button>      
+                    <div style={{display: show && "none"}} className="projetosExpand">
+                    <h2> {props.descricao} <img className={props.imgStyle2} src={props.img2}/> <img className={props.imgStyle2} src={props.img3}/></h2>
                     </div>   
                 </td>
             </tr>
@@ -21,11 +21,4 @@ function Projetos(props){
 }
 
 export default Projetos;
-
-    
-
-
-
-
-
 

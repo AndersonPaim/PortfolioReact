@@ -1,6 +1,5 @@
 import React from 'react'
 import Typed from 'react-typed';
-
 export default props => 
    
     <div className={"capaFundo"}>      
@@ -21,6 +20,17 @@ export default props =>
                     backSpeed={40}
                     loop >
         </Typed>
+
+   
+        <a href="https://github.com/AndersonPaim"> 
+            <button className={"btn"}>
+                <span className={"btn__inner"}>
+                    <span className={"btn__slide"}></span>
+                    <span className={"btn__content"}>Github</span>
+                </span>
+                <img className={"githIcon"} src={props.img}></img>  
+            </button>
+        </a>
     </div>
 
 
