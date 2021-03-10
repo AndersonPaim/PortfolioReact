@@ -35,8 +35,8 @@ ReactDOM.render(
     </div>
     <Topico id={"Sobre"} titulo={"Sobre"}></Topico>
     <Sobre sobre={"Meu nome é Anderson Paim, tenho 20 anos, moro em  Gravataí-RS, sou estudante de Jogos Digitais na  Universidade do Vale do Rio dos Sinos(UNISINOS), estou na área de desenvolvimento de jogos e programação desde 2018, meu maior foco como desenvolvedor são de desenvolvimento de jogos na Unity e programação web front end."}/>
-    <Topico titulo={"Contato"}></Topico>
-    <Contato id={"Contato"}></Contato>
+    <Topico id={"Contato"} titulo={"Contato"}></Topico>
+    <Contato></Contato>
     <Topico titulo={""}></Topico>
   </div>,
   

@@ -1,7 +1,7 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
 
-export default function Contato(props){
+export default function Contato(){
 
     function sendEmail(e) {
         e.preventDefault();
@@ -12,11 +12,12 @@ export default function Contato(props){
             },(error) => {
                 console.log(error.text)
             })
+            alert("Email enviado")
             e.target.reset()
     }
 
     return(
-        <div id={props.id}>
+        <div>
         <form onSubmit={sendEmail}>
             <div className={"emailForm"}>
                 <label><b>Nome</b></label>
@@ -26,9 +27,8 @@ export default function Contato(props){
                 <label><b>Assunto</b></label>
                 <input type="text" name="subject" required/>
                 <label><b>Mensagem</b></label>
-                <textarea name="message" className={"msg"}></textarea>   
-                <input type="submit" className={"sendBtn"}/>
-                
+                <textarea name="message" className={"msg"} required></textarea>   
+                <input type="submit" className={"sendBtn"}/>        
             </div>
         </form>
         </div>
