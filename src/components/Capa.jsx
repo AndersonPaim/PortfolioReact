@@ -23,12 +23,19 @@ export default props =>
 
    
         <a href="https://github.com/AndersonPaim"> 
-            <button className={"btn"}>
-                <span className={"btn__inner"}>
-                    <span className={"btn__slide"}></span>
-                    <span className={"btn__content"}>Github</span>
+            <button className={"btnGit"}>
+                <span className={"btnGit2"}>
+                    <span>Github</span>
                 </span>
                 <img className={"githIcon"} src={props.img}></img>  
+            </button>
+        </a>
+        <a href="https://itch.io/c/1454709/meus-projetos"> 
+            <button className={"btnItch"}>
+                <span className={"btnGit2"}>
+                    <span>Itch.io</span>
+                </span>
+                <img className={"githIcon"} src={props.img2}></img>  
             </button>
         </a>
     </div>

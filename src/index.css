@@ -1,62 +1,62 @@
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    background-color: rgb(148, 147, 147);
-    color: white;
-    text-align: center;
-    font-weight: 300;
-    margin: 0;
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  background-color: rgb(148, 147, 147);
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  margin: 0;
 }
 
-h1,h2{
-    font-weight: 300;
+h1,
+h2 {
+  font-weight: 300;
 }
 
-
-p{
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Bree Serif', serif;
+p {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Bree Serif", serif;
 }
 
-#menu{
-    display: flex;
-    margin: 0;
+#menu {
+  display: flex;
+  margin: 0;
 }
-p.test{
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Permanent Marker', cursive;
-}
-
-li{
-    color: white;
-    display: block;
-    padding: 25px;
-}
-li:first-child{
-    margin-right: auto;
+p.test {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Permanent Marker", cursive;
 }
 
-td{
-    width: 40%;
+li {
+  color: white;
+  display: block;
+  padding: 25px;
+}
+li:first-child {
+  margin-right: auto;
 }
 
-html{
-    scroll-behavior: smooth;
+td {
+  width: 40%;
 }
 
-img{
-    width: 480px;
-    height: 270px;
-    padding: 10px;
+html {
+  scroll-behavior: smooth;
 }
 
-h2{
-    font-family: 'Bree Serif', serif;
-    font-size: 20px;
+img {
+  width: 480px;
+  height: 270px;
+  padding: 10px;
+}
+
+h2 {
+  font-family: "Bree Serif", serif;
+  font-size: 20px;
 }
 /*
 .fundoProjetos {
@@ -72,98 +72,191 @@ h2{
     font-size: 30px;   
 }*/
 
-.fotoPerfil{
-    position: absolute;
-    top: 230px;
-    left: 800px;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
+.fotoPerfil {
+  position: absolute;
+  top: 230px;
+  left: 800px;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
 }
 
-.textoCapa{
-    color: white;
-    font-family: 'Bree Serif', serif;
-    position: absolute;
-    top: 52%;
-    left: 935px;
-    font-size: 70px;
-    transform: translate(-50%, -50%);
+.textoCapa {
+  color: white;
+  font-family: "Bree Serif", serif;
+  position: absolute;
+  top: 52%;
+  left: 935px;
+  font-size: 70px;
+  transform: translate(-50%, -50%);
 }
 
-.textoCapa2{
-    color: white;
-    font-family: 'Bree Serif', serif;
-    position:absolute;
-    top: 630px;
-    left: 935px;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 30px;
+.textoCapa2 {
+  color: white;
+  font-family: "Bree Serif", serif;
+  position: absolute;
+  top: 630px;
+  left: 935px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 30px;
 }
-.capaFundo{
-    margin: 0;
-    padding: 0;
-    width: 1864px;
-    height: 1000px;
-    margin-top: auto;
-    background: linear-gradient(#640370ba, #2bb3f1cc), url(https://storage.googleapis.com/pyre-site/uploads/post/cover/1780/4d9960d5b0.png) no-repeat top center;
-}
-
-.topico{
-    height: 150px;
-    text-align: center;
-    color: white;
-    background-color:rgb(26, 24, 24);
-    vertical-align: middle;
-    line-height: 100px;
-    padding: 10px;
-    font-family: 'Bree Serif', serif;
-    font-size: 20px;
-    width: 1844px;
+.capaFundo {
+  margin: 0;
+  padding: 0;
+  width: 1864px;
+  height: 1000px;
+  margin-top: auto;
+  background: linear-gradient(#640370ba, #2bb3f1cc),
+    url(https://storage.googleapis.com/pyre-site/uploads/post/cover/1780/4d9960d5b0.png)
+      no-repeat top center;
 }
 
-.projetosBg{
-    background: linear-gradient(#630370f1, #2bb2f1e3), url(./img/background.jpg) top center;
-    width: 100%;
-    margin: 0;
-    display: block;
-    text-align: left;
-    
+.topico {
+  height: 150px;
+  text-align: center;
+  color: white;
+  background-color: rgb(26, 24, 24);
+  vertical-align: middle;
+  line-height: 100px;
+  padding: 10px;
+  font-family: "Bree Serif", serif;
+  font-size: 20px;
+  width: 1844px;
 }
 
-.projetos{
-    width: 1290px;
-    height: 90px;  
-    display: flex;
-    padding: 10px;
-    font-family: 'Bree Serif', serif;
-    position: unset;
-    margin-right: 100px;
-    margin-left: 10px;
-    background-color: rgba(0, 0, 0, 0.295);
-    outline: 0;
+.projetosBg {
+  background: linear-gradient(#630370f1, #2bb2f1e3),
+    url(./img/background.jpg) top center;
+  width: 100%;
+  margin: 0;
+  display: block;
+  text-align: left;
+}
+
+.projetos {
+  width: 1240px;
+  height: 90px;
+  display: flex;
+  padding: 10px;
+  font-family: "Bree Serif", serif;
+  position: unset;
+  margin-right: 100px;
+  margin-left: 10px;
+  background-color: rgba(0, 0, 0, 0.295);
+  outline: 0;
+  border: none;
+  line-height: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.active,
+.projetos:hover {
+  background-color: rgb(26, 24, 24);
+  color: white;
+}
+
+.projetosExpand {
+  height: auto;
+  padding: 15px;
+  display: block;
+  overflow: hidden;
+  background-color: #36353542;
+  max-height: 800px;
+  transition: max-height 0.3s ease-out;
+  width: 1210px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.imgProjetos {
+  margin-left: 80px;
+}
+
+.imgProjetos2 {
+  margin-left: 65px;
+}
+
+/*TESTE*/
+
+.btnGit {
+  appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  width: 230px;
+  position: absolute;
+  padding: 8px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.15s ease;
+  margin-left: 700px;
+  margin-top: 590px;
+}
+
+.btnGit2 {
+  display: block;
+  padding: 20px 20px;
+  background: linear-gradient(90deg, #630370a2, #2e31f39f);
+  color: white;
+  border-radius: 40px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.btnGit2:hover {
+  background: linear-gradient(90deg, #630370f1, #2e31f3e3);
+}
+
+/**/
+
+.btnItch {
+    appearance: none;
     border: none;
-    line-height: 20px;
-    font-size: 20px;
-}
-
-.active, .projetos:hover {
-    background-color:rgb(26, 24, 24);
-    color: white;
-}
-
-.projetosExpand{
-    height: auto;
-    padding: 15px;
-    display: block;
-    overflow: hidden;
-    background-color: #36353542;
-    max-height: 600px;
-    transition: max-height 0.3s ease-out;
-    width:1260px;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    width: 230px;
+    position: absolute;
+    padding: 8px;
     margin-bottom: 20px;
-    margin-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.15s ease;
+    margin-left: 940px;
+    margin-top: 590px;
+  }
+  
+
+
+  /*MELHORAR ACIMA*/
+
+
+.mudImg {
+  width: 280px;
+  height: 510px;
+  margin-left: 80px;
+}
+.mudImg2 {
+  width: 280px;
+  height: 510px;
+  margin-left: 180px;
 }
 
+.githIcon {
+  margin-left: -80px;
+  margin-top: -55px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+}
 
+.sobre {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
