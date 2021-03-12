@@ -1,23 +1,28 @@
-import React,{useState} from 'react'
+import React from 'react'
 
 function Projetos(props){
-    const [show,setShow]=useState(true)
-      
+
     return (
-    <div>
-        <table>
-            <tr>
-                <td> <img className={props.imgStyle} src={props.img1}/></td>
-                <td>
-                    <button onClick={()=>setShow(!show)} className="projetos"> <h1> {props.titulo} </h1></button>      
-                    <div style={{display: show && "none"}} className="projetosExpand">
-                    <h2> {props.descricao} <img className={props.imgStyle2} src={props.img2}/> <img className={props.imgStyle2} src={props.img3}/></h2>
-                    </div>   
-                </td>
-            </tr>
-        </table>
-    </div>
-    );
+    
+        <div className={"flex-container"}>
+            <div style={{flexGrow: 2}}>
+                <img className={props.imgStyle} src={props.img1}/>
+            </div>
+            <div className={"projetos"} style={{flexGrow: 6}}>
+                <h1 className={"textProjetos"}> {props.titulo} </h1>
+         
+                <h2 className={"textProjetos2"} > {props.descricao} </h2>
+                <button className={"btnCode"}>
+                    <span>CODE</span>
+                </button>
+                <button className={"btnCode"}>
+                    <span>DOWNLOAD</span>
+                </button>
+               
+            </div>
+          </div>
+        );
+       
 }
 
 export default Projetos;
