@@ -13,7 +13,7 @@ function Projetos(props){
          
                 <h2 className={"textProjetos2"} > {props.descricao} </h2>
                 <button className={"btnCode"}>
-                    <span>CODE</span>
+                    <span>CÓDIGO</span>
                 </button>
                 <button className={"btnCode"}>
                     <span>DOWNLOAD</span>
