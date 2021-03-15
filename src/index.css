@@ -213,6 +213,7 @@
     max-width: 2000px;
     align-content: center;
     margin: 0 auto;
+    padding: 40px;
   }
   
   /*email form*/
@@ -225,6 +226,7 @@
     width: 90%;
     max-width: 2000px;
     margin: 0 auto;
+    padding: 50px;
   }
   label{
     width: 40%;

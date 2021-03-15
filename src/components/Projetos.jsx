@@ -12,13 +12,16 @@ function Projetos(props){
                 <h1 className={"textProjetos"}> {props.titulo} </h1>
          
                 <h2 className={"textProjetos2"} > {props.descricao} </h2>
-                <button className={"btnCode"}>
-                    <span>CÓDIGO</span>
-                </button>
-                <button className={"btnCode"}>
-                    <span>DOWNLOAD</span>
-                </button>
-               
+                <a href={props.linkCode}> 
+                    <button className={"btnCode"}>
+                        <span>CÓDIGO</span>
+                    </button>
+                </a>
+                <a href={props.linkDownload}> 
+                    <button className={"btnCode"}>
+                        <span>DOWNLOAD</span>
+                    </button>
+               </a>
             </div>
           </div>
         );
