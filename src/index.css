@@ -508,6 +508,10 @@
     width: 100%;
     padding-top: 10px;
   }
+
+  .topico h2{
+    font-size: 30px;
+  }
   
   .projetosBg {
     background: linear-gradient(#630370f1, #2bb2f1e3),
