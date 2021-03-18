@@ -1,262 +1,749 @@
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");
-body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 30px;
-  background-color: rgb(148, 147, 147);
-  color: white;
-  text-align: center;
-  font-weight: 300;
-  margin: 0;
-}
 
-h1,
-h2 {
-  font-weight: 300;
-}
-
-p {
-  text-align: center;
-  font-size: 25px;
-  font-family: "Bree Serif", serif;
-}
-
-#menu {
-  display: flex;
-  margin: 0;
-}
-p.test {
-  text-align: center;
-  font-size: 25px;
-  font-family: "Permanent Marker", cursive;
-}
-
-li {
-  color: white;
-  display: block;
-  padding: 25px;
-}
-li:first-child {
-  margin-right: auto;
-}
-
-td {
-  width: 40%;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-img {
-  width: 480px;
-  height: 270px;
-  padding: 10px;
-}
-
-h2 {
-  font-family: "Bree Serif", serif;
-  font-size: 20px;
-}
-/*
-.fundoProjetos {
-    display: flex;
-    flex-wrap: nowrap;
-}
-.fundoProjetos > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
+@media (min-width: 1024px) {
+  body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+    background-color: rgb(148, 147, 147);
+    color: white;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;   
-}*/
+    font-weight: 300;
+    margin: 0;
+  }
+  
+  h1,
+  h2 {
+    font-weight: 300;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Bree Serif", serif;
+  }
 
-.fotoPerfil {
-  position: absolute;
-  top: 230px;
-  left: 800px;
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-}
+  #menu {
+    display: flex;
+    position: relative;
+    margin: auto;
+  }
 
-.textoCapa {
-  color: white;
-  font-family: "Bree Serif", serif;
-  position: absolute;
-  top: 52%;
-  left: 935px;
-  font-size: 70px;
-  transform: translate(-50%, -50%);
-}
-
-.textoCapa2 {
-  color: white;
-  font-family: "Bree Serif", serif;
-  position: absolute;
-  top: 630px;
-  left: 935px;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 30px;
-}
-.capaFundo {
-  margin: 0;
-  padding: 0;
-  width: 1864px;
-  height: 1000px;
-  margin-top: auto;
-  background: linear-gradient(#640370ba, #2bb3f1cc),
-    url(https://storage.googleapis.com/pyre-site/uploads/post/cover/1780/4d9960d5b0.png)
-      no-repeat top center;
-}
-
-.topico {
-  height: 150px;
-  text-align: center;
-  color: white;
-  background-color: rgb(26, 24, 24);
-  vertical-align: middle;
-  line-height: 100px;
-  padding: 10px;
-  font-family: "Bree Serif", serif;
-  font-size: 20px;
-  width: 1844px;
-}
-
-.projetosBg {
-  background: linear-gradient(#630370f1, #2bb2f1e3),
-    url(./img/background.jpg) top center;
-  width: 100%;
-  margin: 0;
-  display: block;
-  text-align: left;
-}
-
-.projetos {
-  width: 1240px;
-  height: 90px;
-  display: flex;
-  padding: 10px;
-  font-family: "Bree Serif", serif;
-  position: unset;
-  margin-right: 100px;
-  margin-left: 10px;
-  background-color: rgba(0, 0, 0, 0.295);
-  outline: 0;
-  border: none;
-  line-height: 20px;
-  font-size: 20px;
-  color: white;
-}
-
-.active,
-.projetos:hover {
-  background-color: rgb(26, 24, 24);
-  color: white;
-}
-
-.projetosExpand {
-  height: auto;
-  padding: 15px;
-  display: block;
-  overflow: hidden;
-  background-color: #36353542;
-  max-height: 800px;
-  transition: max-height 0.3s ease-out;
-  width: 1210px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-}
-
-.imgProjetos {
-  margin-left: 80px;
-}
-
-.imgProjetos2 {
-  margin-left: 65px;
-}
-
-/*TESTE*/
-
-.btnGit {
-  appearance: none;
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-  width: 230px;
-  position: absolute;
-  padding: 8px;
-  margin-bottom: 20px;
-  font-weight: bold;
-  font-size: 14px;
-  transition: all 0.15s ease;
-  margin-left: 700px;
-  margin-top: 590px;
-}
-
-.btnGit2 {
-  display: block;
-  padding: 20px 20px;
-  background: linear-gradient(90deg, #630370a2, #2e31f39f);
-  color: white;
-  border-radius: 40px;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.btnGit2:hover {
-  background: linear-gradient(90deg, #630370f1, #2e31f3e3);
-}
-
-/**/
-
-.btnItch {
+  p.test {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Permanent Marker", cursive;
+  }
+  
+  li {
+    color: white;
+    display: block;
+    padding: 25px;
+  }
+  li:first-child {
+    margin-right: auto;
+  }
+  
+  td {
+    width: 40%;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  img {
+    width: 480px;
+    height: 270px;
+    padding: 10px;
+  }
+  
+  h2 {
+    font-family: "Bree Serif", serif;
+    font-size: 20px;
+  }
+  
+  .fotoPerfil {
+    position: relative;
+    top: 220px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+  }
+  
+  .textoCapa {
+    color: white;
+    font-family: "Bree Serif", serif;
+    position: relative;
+    top: 220px;
+    height: 250px;
+    width: 460px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .textoCapa2 {
+    color: white;
+    font-family: "Bree Serif", serif;
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+  }
+  .capaFundo {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 1000px;
+    max-height: 2000px;
+    margin-top: auto;
+    background: linear-gradient(#640370ba, #2bb3f1cc),
+      url(https://storage.googleapis.com/pyre-site/uploads/post/cover/1780/4d9960d5b0.png)
+        no-repeat top center;
+        
+  }
+  
+  .topico {
+    height: 150px;
+    text-align: center;
+    color: white;
+    background-color: rgb(26, 24, 24);
+    vertical-align: middle;
+    line-height: 100px;
+    font-family: "Bree Serif", serif;
+    font-size: 20px;
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+  .projetosBg {
+    background: linear-gradient(#630370f1, #2bb2f1e3),
+      url(./img/background.jpg) top center;
+    width: 100%;
+    margin: 0;
+    display: block;
+    text-align: left;
+  }
+  
+  /*TESTE*/
+  
+  .btnGit {
+    appearance: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    top: 180px;
+    border-radius: 40px;
+    display: block;
+    margin: auto;
+    width: 445px;
+  }
+  
+  button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+  }
+  .btnGit2 {
+    display: block;
+    padding: 20px 20px;
+    background: linear-gradient(90deg, #630370a2, #2e31f39f);
+    color: white;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: auto;
+    width: 170px;
+  }
+  
+  .btnGit2:hover {
+    background: linear-gradient(90deg, #630370f1, #2e31f3e3);
+  }
+  
+  /**/
+  
+  .btnItch {
     appearance: none;
     border: none;
     background: none;
     padding: 0;
     cursor: pointer;
+    position: relative;
+    top: 50px;
+    height: auto;
     width: 230px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    }
+    
+    /*MELHORAR ACIMA*/
+  
+  
+  .mudImg {
+    width: 280px;
+    height: 510px;
+    margin-left: 80px;
+  }
+  .mudImg2 {
+    width: 280px;
+    height: 510px;
+    margin-left: 180px;
+  }
+  
+  .githIcon {
+    margin-left: -80px;
+    margin-top: -55px;
+    width: 35px;
+    height: 35px;
     position: absolute;
-    padding: 8px;
-    margin-bottom: 20px;
+  }
+  
+  .sobre {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 60%;
+    max-width: 2000px;
+    align-content: center;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  /*email form*/
+  
+  .emailForm {
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  label{
+    width: 40%;
+    margin-left: 30%;
+  }
+  
+  input[type=text]{
+    width: 40%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    border-radius: 20px;
+    margin-left: 30%;
+    background-color: rgba(5, 5, 5, 0.233);
+    box-sizing: border-box;
+  }
+  
+  input[type=text]:focus{
+    background-color: rgba(5, 5, 5, 0.233);
+    outline: none;
+  }
+  
+  .sendBtn {
+    background: linear-gradient(90deg, #630370a2, #2e31f3);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    margin-left: 30%;
+    opacity: 0.9;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+  
+  .sendBtn:hover {
+    opacity: 1;
+  }
+  
+  .msg{
+    border-radius: 20px;
+    background-color: rgba(5, 5, 5, 0.233);
+    display: block;
+    width: 40%;
+    height: 200px;
+    margin-left: 30%;
+    border: none;
+    max-width: 40%;
+    min-width: 40%;
+    max-height: 300px;
+    min-height: 150px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  input{
+    color: white;
+  }
+  
+  /*projetos*/
+  
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 2000px;
+  }
+  
+  .flex-container > div {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    flex-direction: row;
+    width: min-content;
+    height: auto;
+  }
+  
+  .projetos{
+    color: white;
+    left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    flex-direction: row;
+    width: min-content;
+    max-height: 350px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.295);
+  }
+  
+  .imgProjetos {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  
+  .imgProjetos2 {
+    max-width: 250px;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  
+  .textProjetos{
+    text-align: left;
+    font-size: 32px;
+    margin-left: 30px;
+    font-family: "Bree Serif", serif;
+  }
+  .textProjetos2{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30px;
+  }
+  
+  .btnCode{
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    width: 110px;
+    position: relative;
+    padding: 10px;
     font-weight: bold;
     font-size: 14px;
-    transition: all 0.15s ease;
-    margin-left: 940px;
-    margin-top: 590px;
+    border-radius: 50px;
+    left: -40.4%;
+    bottom: 15%;
+    top: -30px;
+    color: white;
+    background-color: rgba(26, 24, 24, 0.582);
+    margin-left: 10px;
+  }
+  
+  .btnCode:hover{
+    background-color: rgb(26, 24, 24);
+  }
+  
+  .codeIcon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+    background-color: rgb(148, 147, 147);
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    margin: 0;
+  }
+  
+  h1,
+  h2 {
+    font-weight: 300;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Bree Serif", serif;
+  }
+  
+  #menu {
+    display: flex;
+    position: relative;
+    margin: auto;
   }
   
 
-
-  /*MELHORAR ACIMA*/
-
-
-.mudImg {
-  width: 280px;
-  height: 510px;
-  margin-left: 80px;
-}
-.mudImg2 {
-  width: 280px;
-  height: 510px;
-  margin-left: 180px;
-}
-
-.githIcon {
-  margin-left: -80px;
-  margin-top: -55px;
-  width: 35px;
-  height: 35px;
-  position: absolute;
-}
-
-.sobre {
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  p.test {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Permanent Marker", cursive;
+  }
+  
+  li {
+    color: white;
+    display: block;
+    padding: 25px;
+  }
+  li:first-child {
+    margin-right: auto;
+  }
+  
+  td {
+    width: 40%;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  img {
+    width: 480px;
+    height: 270px;
+    padding: 10px;
+  }
+  
+  h2 {
+    font-family: "Bree Serif", serif;
+    font-size: 20px;
+  }
+  
+  .fotoPerfil {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    top: 160px;
+  }
+  
+  .textoCapa {
+    color: white;
+    font-family: "Bree Serif", serif;
+    position: relative;
+    top: 170px;
+    height: 250px;
+    width: 310px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .textoCapa2 {
+    color: white;
+    font-family: "Bree Serif", serif;
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+    width: 310px;
+  }
+  .capaFundo {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 860px;
+    max-height: 1000px;
+    margin-top: auto;
+    background: linear-gradient(#640370ba, #2bb3f1cc),
+      url(https://storage.googleapis.com/pyre-site/uploads/post/cover/1780/4d9960d5b0.png)
+        no-repeat top center;
+        
+  }
+  
+  .topico {
+    height: 150px;
+    text-align: center;
+    color: white;
+    background-color: rgb(26, 24, 24);
+    vertical-align: middle;
+    line-height: 100px;
+    font-family: "Bree Serif", serif;
+    font-size: 20px;
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+  .projetosBg {
+    background: linear-gradient(#630370f1, #2bb2f1e3),
+      url(./img/background.jpg) center;
+    width: 100%;
+    margin: 0;
+    display: block;
+    text-align: left;
+  }
+  
+  /*TESTE*/
+  
+  .btnGit {
+    appearance: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    border-radius: 40px;
+    display: block;
+    margin: auto;
+    width: 320px;
+    top: 130px;
+    left: 10px;
+  }
+  
+  button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+  }
+  .btnGit2 {
+    display: block;
+    padding: 20px 20px;
+    background: linear-gradient(90deg, #630370a2, #2e31f39f);
+    color: white;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: auto;
+    width: 100px;
+  }
+  
+  .btnGit2:hover {
+    background: linear-gradient(90deg, #630370f1, #2e31f3e3);
+  }
+  
+  /**/
+  
+    /*MELHORAR ACIMA*/
+  
+  
+  .mudImg {
+    width: 280px;
+    height: 510px;
+    margin-left: 80px;
+  }
+  .mudImg2 {
+    width: 280px;
+    height: 510px;
+    margin-left: 180px;
+  }
+  
+  .githIcon {
+    margin-left: -72px;
+    margin-top: -55px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+  }
+  
+  .sobre {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  /*email form*/
+  
+  .emailForm {
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  label{
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  input[type=text]{
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgba(5, 5, 5, 0.233);
+    box-sizing: border-box;
+  }
+  
+  input[type=text]:focus{
+    background-color: rgba(5, 5, 5, 0.233);
+    outline: none;
+  }
+  
+  .sendBtn {
+    background: linear-gradient(90deg, #630370a2, #2e31f3);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    margin-left: 10%;
+    opacity: 0.9;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+  
+  .sendBtn:hover {
+    opacity: 1;
+  }
+  
+  .msg{
+    border-radius: 20px;
+    background-color: rgba(5, 5, 5, 0.233);
+    display: block;
+    height: 200px;
+    border: none;
+    max-width: 80%;
+    min-width: 40%;
+    max-height: 300px;
+    min-height: 150px;
+    margin-top: 8px;
+    width: 80%;
+    margin-left: 10%;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  input{
+    color: white;
+  }
+  
+  /*projetos*/
+  
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+  }
+  
+  .flex-container > div {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+  }
+  
+  .projetos{
+    color: white;
+    left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    max-height: 550px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.295);
+  }
+  
+  .imgProjetos {
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  
+  .imgProjetos2 {
+    max-width: 250px;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  
+  .textProjetos{
+    text-align: left;
+    font-size: 32px;
+    margin-left: 30px;
+    font-family: "Bree Serif", serif;
+  }
+  .textProjetos2{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30px;
+  }
+  
+  .btnCode{
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    width: 110px;
+    position: relative;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 50px;
+    left: -6.4%;
+    bottom: 15%;
+    margin-left: 20px;
+    top: -30px;
+    color: white;
+    background-color: rgba(26, 24, 24, 0.582);
+  }
+  
+  .btnCode:hover{
+    background-color: rgb(26, 24, 24);
+  }
+  
+  .codeIcon{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+  }
+  
 }
