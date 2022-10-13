@@ -28,19 +28,19 @@ ReactDOM.render(
     <Projetos imgStyle={"imgProjetos"} img1={img13} titulo={"Projeto AR"} linkDownload={"https://andersonpaim.itch.io/projeto-ar"} descricao={"Introdução: Jogo de cartas em realidade aumentado, onde o personagem da carta ganha vida na tela do celular, o jogo tem um combate em turnos com diferentes ataques. \u000A Plataforma: Mobile   \u000A Engine: Unity + Vuforia  \u000A Linguagem de programação: C# \u000A "}></Projetos>
     <Projetos imgStyle={"imgProjetos2"} img1={img12} titulo={"Mais Um Dia"} linkDownload={"https://andersonpaim.itch.io/maisumdia"} linkCode={"https://github.com/AndersonPaim/MaisUmDia"} descricao={"Introdução: Jogo de corrida, com obstaculos pelo percurso o objetivo é chegar até o final, o jogo conta com sistema de login, banco de dados para save e uso de giroscópio para movimentação do player. \u000A Plataforma: Mobile  \u000A Engine: Framework Phaser3  \u000A Linguagem de programação: JavaScript \u000A "}></Projetos>
     </div>
-     
-   
+
+
     <Topico id={"Sobre"} titulo={"Sobre"}></Topico>
     <Sobre sobre={"Meu nome é Anderson Paim, tenho 21 anos, moro em  Gravataí-RS, sou estudante de Jogos Digitais na  Universidade do Vale do Rio dos Sinos(UNISINOS), estou na área de desenvolvimento de jogos e programação desde 2018, meu maior foco como desenvolvedor são de desenvolvimento de jogos na Unity."}/>
     <Topico id={"Contato"} titulo={"Contato"}></Topico>
     <Contato></Contato>
     <Footer></Footer>
   </div>,
-  
+
     document.getElementById('root')
 )
 
 // QUEBRA DE LINHA \u000A com esse style={{ whiteSpace: 'pre-wrap' }}
-/*carregar imagem 
+/*carregar imagem
 imagem={<img src={img1}/>}
 */

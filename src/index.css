@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 @media (min-width: 1024px) {
   body {
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -11,12 +15,12 @@
     font-weight: 300;
     margin: 0;
   }
-  
+
   h1,
   h2 {
     font-weight: 300;
   }
-  
+
   p {
     text-align: center;
     font-size: 25px;
@@ -34,35 +38,30 @@
     font-size: 25px;
     font-family: "Permanent Marker", cursive;
   }
-  
+
   li {
     color: white;
     display: block;
     padding: 25px;
   }
+
   li:first-child {
     margin-right: auto;
   }
-  
+
   td {
     width: 40%;
   }
-  
+
   html {
     scroll-behavior: smooth;
   }
-  
-  img {
-    width: 480px;
-    height: 270px;
-    padding: 10px;
-  }
-  
+
   h2 {
     font-family: "Bree Serif", serif;
     font-size: 20px;
   }
-  
+
   .fotoPerfil {
     position: relative;
     top: 220px;
@@ -72,7 +71,7 @@
     display: flex;
     margin: auto;
   }
-  
+
   .textoCapa {
     color: white;
     font-family: "Bree Serif", serif;
@@ -85,7 +84,7 @@
     margin: auto;
     text-align: center;
   }
-  
+
   .textoCapa2 {
     color: white;
     font-family: "Bree Serif", serif;
@@ -96,6 +95,7 @@
     text-align: center;
     font-size: 30px;
   }
+
   .capaFundo {
     margin: 0;
     padding: 0;
@@ -104,11 +104,10 @@
     max-height: 2000px;
     margin-top: auto;
     background: linear-gradient(#640370ba, #2bb3f1cc),
-      url(https://storage.googleapis.com/pyre-site/uploads/post/cover/1780/4d9960d5b0.png)
-        no-repeat top center;
-        
+      url(https://storage.googleapis.com/pyre-site/uploads/post/cover/1780/4d9960d5b0.png) no-repeat top center;
+
   }
-  
+
   .topico {
     height: 150px;
     text-align: center;
@@ -121,7 +120,7 @@
     width: 100%;
     padding-top: 10px;
   }
-  
+
   .projetosBg {
     background: linear-gradient(#630370f1, #2bb2f1e3),
       url(./img/background.jpg) top center;
@@ -130,9 +129,9 @@
     display: block;
     text-align: left;
   }
-  
+
   /*TESTE*/
-  
+
   .btnGit {
     appearance: none;
     border: none;
@@ -145,11 +144,12 @@
     margin: auto;
     width: 445px;
   }
-  
-  button{
+
+  button {
     background-color: rgba(0, 0, 0, 0);
     border: none;
   }
+
   .btnGit2 {
     display: block;
     padding: 20px 20px;
@@ -161,13 +161,13 @@
     margin: auto;
     width: 170px;
   }
-  
+
   .btnGit2:hover {
     background: linear-gradient(90deg, #630370f1, #2e31f3e3);
   }
-  
+
   /**/
-  
+
   .btnItch {
     appearance: none;
     border: none;
@@ -182,22 +182,23 @@
     display: block;
     margin: auto;
     margin-bottom: 10px;
-    }
-    
-    /*MELHORAR ACIMA*/
-  
-  
+  }
+
+  /*MELHORAR ACIMA*/
+
+
   .mudImg {
     width: 280px;
     height: 510px;
     margin-left: 80px;
   }
+
   .mudImg2 {
     width: 280px;
     height: 510px;
     margin-left: 180px;
   }
-  
+
   .githIcon {
     margin-left: -80px;
     margin-top: -55px;
@@ -205,7 +206,7 @@
     height: 35px;
     position: absolute;
   }
-  
+
   .sobre {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -215,9 +216,9 @@
     margin: 0 auto;
     padding: 40px;
   }
-  
+
   /*email form*/
-  
+
   .emailForm {
     padding: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -228,12 +229,13 @@
     margin: 0 auto;
     padding: 50px;
   }
-  label{
+
+  label {
     width: 40%;
     margin-left: 30%;
   }
-  
-  input[type=text]{
+
+  input[type=text] {
     width: 40%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -244,12 +246,12 @@
     background-color: rgba(5, 5, 5, 0.233);
     box-sizing: border-box;
   }
-  
-  input[type=text]:focus{
+
+  input[type=text]:focus {
     background-color: rgba(5, 5, 5, 0.233);
     outline: none;
   }
-  
+
   .sendBtn {
     background: linear-gradient(90deg, #630370a2, #2e31f3);
     color: white;
@@ -263,12 +265,12 @@
     border-radius: 20px;
     margin-top: 30px;
   }
-  
+
   .sendBtn:hover {
     opacity: 1;
   }
-  
-  .msg{
+
+  .msg {
     border-radius: 20px;
     background-color: rgba(5, 5, 5, 0.233);
     display: block;
@@ -284,13 +286,13 @@
     box-sizing: border-box;
     color: white;
   }
-  
-  input{
+
+  input {
     color: white;
   }
-  
+
   /*projetos*/
-  
+
   .flex-container {
     display: flex;
     align-items: center;
@@ -299,19 +301,8 @@
     width: 100%;
     max-width: 2000px;
   }
-  
-  .flex-container > div {
-    color: white;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 30px;
-    flex-direction: row;
-    width: min-content;
-    height: auto;
-  }
-  
-  .projetos{
+
+  .projetos {
     color: white;
     left: 20px;
     margin-right: 10px;
@@ -325,16 +316,17 @@
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.295);
   }
-  
+
   .imgProjetos {
     max-width: 450px;
-    width: 100%;
+    width: 100vw;
     height: auto;
     margin: 0 auto;
     border-radius: 20px;
     margin-top: 15px;
+
   }
-  
+
   .imgProjetos2 {
     max-width: 250px;
     width: 50%;
@@ -343,20 +335,21 @@
     border-radius: 20px;
     margin-top: 15px;
   }
-  
-  .textProjetos{
+
+  .textProjetos {
     text-align: left;
     font-size: 32px;
     margin-left: 30px;
     font-family: "Bree Serif", serif;
   }
-  .textProjetos2{
+
+  .textProjetos2 {
     font-size: 20px;
     text-align: left;
     margin-left: 30px;
   }
-  
-  .btnCode{
+
+  .btnCode {
     appearance: none;
     border: none;
     cursor: pointer;
@@ -373,12 +366,12 @@
     background-color: rgba(26, 24, 24, 0.582);
     margin-left: 10px;
   }
-  
-  .btnCode:hover{
+
+  .btnCode:hover {
     background-color: rgb(26, 24, 24);
   }
-  
-  .codeIcon{
+
+  .codeIcon {
     width: 35px;
     height: 35px;
     position: absolute;
@@ -395,59 +388,65 @@
     font-weight: 300;
     margin: 0;
   }
-  
+
   h1,
   h2 {
     font-weight: 300;
   }
-  
-  p {
-    text-align: center;
-    font-size: 25px;
-    font-family: "Bree Serif", serif;
-  }
-  
+
+    p {
+      text-align: center;
+      font-size: 25px;
+      font-family: "Bree Serif", serif;
+    }
+
   #menu {
     display: flex;
     position: relative;
     margin: auto;
   }
-  
+
 
   p.test {
     text-align: center;
     font-size: 25px;
     font-family: "Permanent Marker", cursive;
   }
-  
+
   li {
     color: white;
     display: block;
     padding: 25px;
   }
+
   li:first-child {
     margin-right: auto;
   }
-  
+
   td {
     width: 40%;
   }
-  
+
   html {
     scroll-behavior: smooth;
   }
-  
-  img {
-    width: 480px;
-    height: 270px;
-    padding: 10px;
-  }
-  
+
   h2 {
     font-family: "Bree Serif", serif;
     font-size: 20px;
   }
-  
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:visited,
+  a:link,
+  a:active {
+    text-decoration: none;
+  }
+
   .fotoPerfil {
     position: relative;
     height: 200px;
@@ -457,7 +456,7 @@
     margin: auto;
     top: 160px;
   }
-  
+
   .textoCapa {
     color: white;
     font-family: "Bree Serif", serif;
@@ -471,7 +470,7 @@
     text-align: center;
     font-size: 40px;
   }
-  
+
   .textoCapa2 {
     color: white;
     font-family: "Bree Serif", serif;
@@ -483,6 +482,7 @@
     font-size: 30px;
     width: 310px;
   }
+
   .capaFundo {
     margin: 0;
     padding: 0;
@@ -491,11 +491,10 @@
     max-height: 1000px;
     margin-top: auto;
     background: linear-gradient(#640370ba, #2bb3f1cc),
-      url(https://storage.googleapis.com/pyre-site/uploads/post/cover/1780/4d9960d5b0.png)
-        no-repeat top center;
-        
+      url(https://storage.googleapis.com/pyre-site/uploads/post/cover/1780/4d9960d5b0.png) no-repeat top center;
+
   }
-  
+
   .topico {
     height: 150px;
     text-align: center;
@@ -509,10 +508,10 @@
     padding-top: 10px;
   }
 
-  .topico h2{
+  .topico h2 {
     font-size: 30px;
   }
-  
+
   .projetosBg {
     background: linear-gradient(#630370f1, #2bb2f1e3),
       url(./img/background.jpg) center;
@@ -521,9 +520,9 @@
     display: block;
     text-align: left;
   }
-  
+
   /*TESTE*/
-  
+
   .btnGit {
     appearance: none;
     border: none;
@@ -537,72 +536,57 @@
     top: 130px;
     left: 10px;
   }
-  
-  button{
+
+  button {
     background-color: rgba(0, 0, 0, 0);
     border: none;
   }
-  .btnGit2 {
-    display: block;
-    padding: 20px 20px;
-    background: linear-gradient(90deg, #630370a2, #2e31f39f);
-    color: white;
-    border-radius: 40px;
-    font-size: 15px;
-    font-weight: 600;
-    margin: auto;
-    width: 100px;
-  }
-  
-  .btnGit2:hover {
-    background: linear-gradient(90deg, #630370f1, #2e31f3e3);
-  }
-  
+
   /**/
-  
-    /*MELHORAR ACIMA*/
-  
-  
+
+  /*MELHORAR ACIMA*/
+
+
   .mudImg {
     width: 280px;
     height: 510px;
     margin-left: 80px;
   }
+
   .mudImg2 {
     width: 280px;
     height: 510px;
     margin-left: 180px;
   }
-  
+
   .githIcon {
-    margin-left: -72px;
-    margin-top: -55px;
+    margin-right: 5px;
     width: 35px;
     height: 35px;
-    position: absolute;
   }
-  
+
   .sobre {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 60px;
     margin-bottom: 60px;
   }
-  
+
   /*email form*/
-  
+
   .emailForm {
     padding: 16px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  label{
+
+  label {
     width: 80%;
     margin-left: 10%;
   }
-  
-  input[type=text]{
+
+  input[type=text] {
     padding: 15px;
     margin: 5px 0 22px 0;
     display: block;
@@ -613,12 +597,12 @@
     background-color: rgba(5, 5, 5, 0.233);
     box-sizing: border-box;
   }
-  
-  input[type=text]:focus{
+
+  input[type=text]:focus {
     background-color: rgba(5, 5, 5, 0.233);
     outline: none;
   }
-  
+
   .sendBtn {
     background: linear-gradient(90deg, #630370a2, #2e31f3);
     color: white;
@@ -632,12 +616,12 @@
     border-radius: 20px;
     margin-top: 30px;
   }
-  
+
   .sendBtn:hover {
     opacity: 1;
   }
-  
-  .msg{
+
+  .msg {
     border-radius: 20px;
     background-color: rgba(5, 5, 5, 0.233);
     display: block;
@@ -653,54 +637,38 @@
     box-sizing: border-box;
     color: white;
   }
-  
-  input{
+
+  input {
     color: white;
   }
-  
+
   /*projetos*/
-  
+
   .flex-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction:column;
+    flex-direction: column;
+    padding: 20px;
   }
-  
-  .flex-container > div {
+
+  .projetos {
     color: white;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 30px;
-    flex-direction: row;
-    width: 80%;
-    height: auto;
-  }
-  
-  .projetos{
-    color: white;
-    left: 20px;
-    margin-right: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
     font-size: 30px;
     width: 100%;
-    max-height: 550px;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.295);
   }
-  
+
   .imgProjetos {
-    max-width: 280px;
     width: 100%;
     height: auto;
-    margin: 0 auto;
     border-radius: 20px;
-    margin-top: 15px;
   }
-  
+
   .imgProjetos2 {
     max-width: 250px;
     width: 50%;
@@ -709,20 +677,21 @@
     border-radius: 20px;
     margin-top: 15px;
   }
-  
-  .textProjetos{
+
+  .textProjetos {
     text-align: left;
     font-size: 32px;
     margin-left: 30px;
     font-family: "Bree Serif", serif;
   }
-  .textProjetos2{
+
+  .textProjetos2 {
     font-size: 20px;
     text-align: left;
     margin-left: 30px;
   }
-  
-  .btnCode{
+
+  .btnCode {
     appearance: none;
     border: none;
     cursor: pointer;
@@ -739,15 +708,34 @@
     color: white;
     background-color: rgba(26, 24, 24, 0.582);
   }
-  
-  .btnCode:hover{
+
+  .btnCode:hover {
     background-color: rgb(26, 24, 24);
   }
-  
-  .codeIcon{
+
+  .codeIcon {
     width: 35px;
     height: 35px;
     position: absolute;
   }
-  
+
+  .btnSocials{
+    display: flex;
+    padding: 10px 25px;
+    background: linear-gradient(90deg, #630370a2, #2e31f39f);
+    color: white;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: auto;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  .btnSocials:hover {
+    background: linear-gradient(90deg, #630370f1, #2e31f3e3);
+  }
 }
